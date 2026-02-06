@@ -6,9 +6,11 @@ I design my presentations in a minimalistic style with few headings and points t
 
 Both projects are implemented in **MATLAB scripts**.
 
----
-
 ## GP1: Kinematics of Double Wishbone Suspension and Its Visualization
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/susWheelRack.png" width="40%">
+</p>
 
 1. Developed a function that generates the hard points of suspension and steering geometry (mounts on chassis, link connections, main points like wheel center and contact patch) from some design parameters (anti-dive and anti-squat percentage, C.G. height, swing arm lengths in front and side views, etc.).
 
@@ -30,7 +32,9 @@ Both projects are implemented in **MATLAB scripts**.
 
 6. Made a function to link some simple full-vehicle dynamics model data with respective wheel orientations from the kinematic model to visualize them in a Python-based video representation.
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/videoScreenshot.png" width="40%">
+</p>
 
 ## GP2: Development of AMT Control System
 
@@ -44,4 +48,12 @@ Both projects are implemented in **MATLAB scripts**.
 
 3. Tuned PID control for actuators.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/fullGearRange.jpg" width="80%">
+</p>
+
 4. Modeled discrete MPC for clutch actuator.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/ClutchMPC.jpg" width="60%">
+</p>

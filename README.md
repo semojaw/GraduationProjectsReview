@@ -1,6 +1,6 @@
 # Graduation Projects (GP1 & GP2)
 
-This repository is dedicated to covering the main lines of work done in graduation projects **GP1** and **GP2**, with some visual aids and results shown in my parts of the presentations of the two projects.
+This repository is dedicated to covering the main lines of work done in graduation projects **GP1** and **GP2** as part of the **BSc in Mechanical Engineering (Automotive Program)**. Some visual aids and results shown in my parts of the presentations of the two projects.
 
 I design my presentations in a minimalistic style with few headings and points to help me remember, organize my speech, and not cause any distractions to the audience, so this README will be more descriptive.
 
@@ -8,9 +8,14 @@ Both projects are implemented in **MATLAB scripts**.
 
 ## GP1: Kinematics of Double Wishbone Suspension and Its Visualization
 
+This project focuses on the analytical modeling and visualization of a double wishbone suspension system.
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/susWheelRack.png" width="40%">
+  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/susWheelRack.png" width="40%"><br>
+  <em>Suspension and steeirng kinemtaic model figure</em>
 </p>
+
+Tasks done:
 
 1. Developed a function that generates the hard points of suspension and steering geometry (mounts on chassis, link connections, main points like wheel center and contact patch) from some design parameters (anti-dive and anti-squat percentage, C.G. height, swing arm lengths in front and side views, etc.).
 
@@ -38,6 +43,10 @@ Both projects are implemented in **MATLAB scripts**.
 
 ## GP2: Development of AMT Control System
 
+This project addresses the modeling and control of an Automated Manual Transmission (AMT) test rig.
+
+Tasks done:
+
 1. Modeling and estimating the parameters of a manual transmission test rig, including:  
    a. Simple induction motor  
    b. Clutch nonlinear model with smooth friction model  
@@ -49,11 +58,30 @@ Both projects are implemented in **MATLAB scripts**.
 3. Tuned PID control for actuators.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/fullGearRange.jpg" width="80%">
+  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/fullGearRange.jpg" width="80%"><br>
+  <em>Shifting from the first to the fourth gear shift and back in 60 seconds</em>
 </p>
 
-4. Modeled discrete MPC for clutch actuator.
+4. Modeled discrete MPC (model predictive control) for clutch actuator.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/ClutchMPC.jpg" width="60%">
+  <img src="https://raw.githubusercontent.com/semojaw/IntegratedVehicleModelDocumentation/refs/heads/main/IntegratedVehicleModelImages/ClutchMPC.jpg" width="60%"><br>
+  <em>Unit step response of clutch actuator MPC</em>
 </p>
+
+## Repository Contents
+
+- | `My part in GP1 presentation.pdf` | Suspension kinematics modeling and results Slides |
+- | `My part in GP2 presentation.pdf` | AMT modeling and simulation results Slides |
+
+## Supervision
+
+Both graduation projects were conducted under academic supervision at Ain Shams University.
+
+**GP1 Supervisor:**  
+**Dr. Diaa Abidou**  
+Assistant Professor, Department of Automotive Engineering, Faculty of Engineering, Ain Shams University
+
+**GP2 Supervisor:**  
+**Dr. Fady Naiem**  
+Assistant Professor, Department of Automotive Engineering, Faculty of Engineering, Ain Shams University
